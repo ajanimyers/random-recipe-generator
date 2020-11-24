@@ -18,7 +18,6 @@ function App() {
   };
   return (
     <div className="container">
-      <p>{process.env.API_KEY}</p>
       <h1>
         Random Recipe Generator. <span className="img">🍳</span>
       </h1>
