@@ -20,7 +20,7 @@ button {
 }
 
 p {
-  color: #e0e1dd;
+  color: #fff;
 }
 
 a {
@@ -28,7 +28,7 @@ a {
   text-decoration: underline;
 }
 li {
-  color: #e0e1dd;
+  color: #fff;
 }
 
 @media screen and (min-width: 768px) {

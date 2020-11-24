@@ -41,7 +41,9 @@ function App() {
             </div>
             <div>
               <h6>Instructions</h6>
-              {parse(recipe.instructions)}
+              {typeof recipe.instructions === "string" ? (
+                <p>{parse(recipe.instructions)}</p>
+              ) : null}
             </div>
           </div>
         </div>
