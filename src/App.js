@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./assets/css/typography.css";
 import "./assets/css/main.css";
 import parse from "html-react-parser";
@@ -6,6 +6,9 @@ require("dotenv").config();
 function App() {
   const url = `https://api.spoonacular.com/recipes/random?number=1&apiKey=${process.env.REACT_APP_API_KEY}`;
   const [recipe, setRecipe] = useState({});
+  useEffect(() => {
+    document.title = "Random Recipe Generator 🍳";
+  });
   const getRecipe = () => {
     fetch(url)
       .then((resp) => resp.json())
