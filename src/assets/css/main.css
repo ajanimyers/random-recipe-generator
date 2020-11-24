@@ -29,6 +29,7 @@ a {
 }
 li {
   color: #fff;
+  margin-bottom: 0.5rem;
 }
 
 @media screen and (min-width: 768px) {
