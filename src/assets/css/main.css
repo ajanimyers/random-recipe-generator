@@ -1,0 +1,43 @@
+body {
+  background: #415a77;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  background: #1b263b;
+  border: none;
+  color: #fff;
+  padding: 0.5rem 1rem;
+}
+
+p {
+  color: #e0e1dd;
+}
+
+a {
+  color: #778da9;
+  text-decoration: underline;
+}
+li {
+  color: #e0e1dd;
+}
+
+@media screen and (min-width: 768px) {
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .flex-container div {
+    width: 45%;
+  }
+}

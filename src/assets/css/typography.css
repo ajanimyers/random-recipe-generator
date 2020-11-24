@@ -1,0 +1,73 @@
+body {
+  font-size: 62.5%;
+}
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 1.2rem;
+  color: #fff;
+}
+
+h1 {
+  font-size: 3.981rem;
+}
+
+h2 {
+  font-size: 3.318rem;
+}
+
+h3 {
+  font-size: 2.765rem;
+}
+
+h4 {
+  font-size: 2.304rem;
+}
+
+h5 {
+  font-size: 1.92rem;
+}
+
+h6,
+p,
+a,
+li,
+small {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  margin-bottom: 2.4rem;
+}
+
+p {
+  line-height: 2.4rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 3.838rem;
+  }
+  h2 {
+    font-size: 3.906rem;
+  }
+  h3 {
+    font-size: 3.125rem;
+  }
+  h4 {
+    font-size: 2.5rem;
+  }
+  h5 {
+    font-size: 2rem;
+  }
+  h6 {
+    font-size: 1.6rem;
+  }
+}
